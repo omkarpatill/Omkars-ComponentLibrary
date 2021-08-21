@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root{
+    --primary-color:#9D174D;
+}
+
+hr{
+    margin: 2rem 0.5rem;
+}
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    
+}
+.container-centre{
+    max-width: 600px;
+    margin:auto;
+}
+
+
+.link-primary{
+    text-decoration: none;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 0.5rem;
+
+}
+
+.link-secondary{
+    text-decoration: none;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    
+}
+
+.list-nobullet{
+    list-style: none;
+}
+
+.list-inline{
+    list-style: none;
+    
+}
+.list-inlineitem{
+    display: inline;
+    padding-right: 1rem;
+}
+
+.navigation{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 2rem 2rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.navigation .link{
+    color: white;
+    text-decoration: none;
+}
+
+.navigation .nav-list{
+    text-align: right;
+}
+
+.navigation .link-active{
+    font-weight: bolder; 
+}
+
+.hero{
+    padding: 2rem;
+}
+
+.hero .img-hero{
+    max-width: 800px;
+    display: block;
+    margin: auto;
+}
+
+.hero .header-text{
+    text-align: center;
+    color: var(--primary-color);
+
+}
+.hero .header-color{
+    color: gray;
+}
+

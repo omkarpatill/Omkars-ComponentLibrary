@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Component Library</title>
+    <link href="styles.css" rel="stylesheet"/>
+</head>
+<body>
+    <h1>Omkar's Component Library</h1>
+    <hr>
+
+    <h2>Typography</h2>
+    <p>This is normal text written using tag p</p>
+    <p>To make text bold we use <strong>strong keyword</strong></p>
+    <small>To write in small font we use <Strong>small</Strong> keyword</small>
+    <p>To apply any font to text, we go to google fonts, copy the import code fro there and paste it in styles.css page</p>
+    <hr>
+
+    <h2>Containers</h2>
+    <p>Containers are empty spaces. Two types of containers: 1. Fluid container  2. Centre container</p>
+    
+    <h3>Fluid Container:</h3>
+    <div class="container">It will use all the page width. This text is written using 1rem padding. Now i am just writing random stuff to check if padding is indeed appllied on the right side. In my opinion Batman is greatest supergero ever written.</div>
+
+    <h3>Centre Container:</h3>
+    <div class="container-centre">It will use the specified page width. For this I have given 600px max width, Lets see if its getting applied or not!? </div>
+
+    <hr>
+    <h2>Links</h2>
+    <a class="link-primary" href="/">Primary Link</a>
+    <a class="link-secondary" href="/">Secondary Link</a>
+    <hr>
+    
+    <h2>Lists</h2>
+    <h3>Unordered List</h3>
+    <ul>
+        <li>Item One</li>
+        <li>Item Two</li>
+        <li>Item Three</li>
+    </ul>
+
+    <h3>Unordered list with No Bullets</h3>
+    <ul class="list-nobullet">
+        <li>Item One</li>
+        <li>Item Two</li>
+        <li>Item Three</li>
+    </ul>
+
+    <h3>Unordered <Strong>Inline</Strong> List</h3>
+    <ul class="list-inline">
+        <li class="list-inlineitem">Item One</li>
+        <li class="list-inlineitem">Item Two</li>
+        <li class="list-inlineitem">Item Three</li>
+    </ul>
+
+    <h3>Reversed order List+ Ordered List</h3>
+    <ol reversed>
+        <li>Item One</li>
+        <li>Item Two</li>
+        <li>Item Three</li>
+
+    </ol>
+    <hr>
+
+    <h2>Navigation</h2>
+    
+    <nav class="navigation"> <div class="nav-header">Omkar Patil</div> 
+
+    <ul class="list-inline nav-list">
+        <li class="list-inlineitem"><a class="link link-active" href="/">Home</a></li>
+        <li class="list-inlineitem"><a class="link" href="/">Projects</a></li>
+        <li class="list-inlineitem"><a class="link" href="/">About</a></li>
+    </ul>
+
+     </nav>
+
+     <h2>Header</h2>
+
+     <header class="hero">
+         <img class="img-hero" src="images/hero.svg" />
+         <h1  class="header-text">Hello! <span class="header-color">How are You?</span> </h1>
+     </header>
+
+</body>
+</html>
