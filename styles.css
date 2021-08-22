@@ -115,3 +115,21 @@ body{
     background-color: #F7FAFC;
 }
 
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    color: white;
+    
+}
+.footer .link{
+    text-decoration: none;
+    color: white;
+    
+}
+.footer .list-inline{
+    text-align: right;
+}
+
+
