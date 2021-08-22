@@ -103,3 +103,15 @@ body{
     color: gray;
 }
 
+.section h1{
+    text-align: center;
+}
+
+.white{
+    padding: 2rem;
+}
+.gray{
+    padding: 2rem;
+    background-color: #F7FAFC;
+}
+
